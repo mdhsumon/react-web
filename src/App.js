@@ -8,8 +8,10 @@ import { Work } from "./component/page/work";
 import { Blog } from "./component/page/blog";
 import { Contact } from "./component/page/contact";
 import { Footer } from "./component/footer";
-import './App.css';
 
+import { pageTitles } from './service/serviceHeader';
+
+import './App.css';
 import './css/bootstrap.css';
 import './css/icomoon.css';
 import './css/animate.css';
@@ -22,7 +24,7 @@ class App extends Component {
     return (
       <Router>
         <div id="page">
-          <Header />
+          <Header  pageTitleName={pageTitles[0].name} />
           <div className='content-body'>
             <Route exact path='/' component={ Home } />
             <Route path='/about' component={ About } />

@@ -17,17 +17,17 @@ export const RecentProject = () => {
                 </div>
                 <div className="row">
                     <div className="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-                        <Link to="#"><img src={work1} alt="Free HTML5 Website Template by FreeHTML5.co" className="img-responsive" />
+                        <Link to="/"><img src={work1} alt="Free HTML5 Website Template by FreeHTML5.co" className="img-responsive" />
                             <h3>Clipboard Office</h3>
                         </Link>
                     </div>
                     <div className="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-                        <Link to="#"><img src={work2} alt="Free HTML5 Website Template by FreeHTML5.co" className="img-responsive" />
+                        <Link to="/"><img src={work2} alt="Free HTML5 Website Template by FreeHTML5.co" className="img-responsive" />
                             <h3>Smart Layers</h3>
                         </Link>
                     </div>
                     <div className="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-                        <Link to="#"><img src={work3} alt="Free HTML5 Website Template by FreeHTML5.co" className="img-responsive" />
+                        <Link to="/"><img src={work3} alt="Free HTML5 Website Template by FreeHTML5.co" className="img-responsive" />
                             <h3>Notepad Mockup</h3>
                         </Link>
                     </div>

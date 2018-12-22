@@ -20,7 +20,7 @@ export const Blog = () => {
                     <div className="col-md-4 col-sm-4 animate-box" data-animate-effect="fadeInUp">
                         <div className="fh5co-post">
                             <span className="fh5co-date">Sep. 12th</span>
-                            <h3><Link to="#">Web Design for the Future</Link></h3>
+                            <h3><Link to="/">Web Design for the Future</Link></h3>
                             <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
                             <p className="author"><img src={person1} alt="Free HTML5 Bootstrap Template by FreeHTML5.co" /> <cite> Mike Adam</cite></p>
                         </div>
@@ -28,7 +28,7 @@ export const Blog = () => {
                     <div className="col-md-4 col-sm-4 animate-box" data-animate-effect="fadeInUp">
                         <div className="fh5co-post">
                             <span className="fh5co-date">Sep. 23rd</span>
-                            <h3><Link to="#">Web Design for the Future</Link></h3>
+                            <h3><Link to="/">Web Design for the Future</Link></h3>
                             <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
                             <p className="author"><img src={person2} alt="Free HTML5 Bootstrap Template by FreeHTML5.co" /> <cite> Mike Adam</cite></p>
                         </div>
@@ -36,7 +36,7 @@ export const Blog = () => {
                     <div className="col-md-4 col-sm-4 animate-box" data-animate-effect="fadeInUp">
                         <div className="fh5co-post">
                             <span className="fh5co-date">Sep. 24th</span>
-                            <h3><Link to="#">Web Design for the Future</Link></h3>
+                            <h3><Link to="/">Web Design for the Future</Link></h3>
                             <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
                             <p className="author"><img src={person3} alt="Free HTML5 Bootstrap Template by FreeHTML5.co" /> <cite> Mike Adam</cite></p>
                         </div>
@@ -45,7 +45,7 @@ export const Blog = () => {
                     <div className="col-md-4 col-sm-4 animate-box" data-animate-effect="fadeInUp">
                         <div className="fh5co-post">
                             <span className="fh5co-date">Sep. 12th</span>
-                            <h3><Link to="#">Web Design for the Future</Link></h3>
+                            <h3><Link to="/">Web Design for the Future</Link></h3>
                             <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
                         <p className="author"><img src={person1} alt="Free HTML5 Bootstrap Template by FreeHTML5.co" /> <cite> Mike Adam</cite></p>
                         </div>
@@ -53,7 +53,7 @@ export const Blog = () => {
                     <div className="col-md-4 col-sm-4 animate-box" data-animate-effect="fadeInUp">
                         <div className="fh5co-post">
                             <span className="fh5co-date">Sep. 23rd</span>
-                            <h3><Link to="#">Web Design for the Future</Link></h3>
+                            <h3><Link to="/">Web Design for the Future</Link></h3>
                             <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
                         <p className="author"><img src={person2} alt="Free HTML5 Bootstrap Template by FreeHTML5.co" /> <cite> Mike Adam</cite></p>
                         </div>
@@ -61,7 +61,7 @@ export const Blog = () => {
                     <div className="col-md-4 col-sm-4 animate-box" data-animate-effect="fadeInUp">
                         <div className="fh5co-post">
                             <span className="fh5co-date">Sep. 24th</span>
-                            <h3><Link to="#">Web Design for the Future</Link></h3>
+                            <h3><Link to="/">Web Design for the Future</Link></h3>
                             <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
                             <p className="author"><img src={person3} alt="Free HTML5 Bootstrap Template by FreeHTML5.co" /> <cite> Mike Adam</cite></p>
                         </div>
@@ -71,7 +71,7 @@ export const Blog = () => {
                     <div className="col-md-4 col-sm-4 animate-box" data-animate-effect="fadeInUp">
                         <div className="fh5co-post">
                             <span className="fh5co-date">Sep. 12th</span>
-                            <h3><Link to="#">Web Design for the Future</Link></h3>
+                            <h3><Link to="/">Web Design for the Future</Link></h3>
                             <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
                             <p className="author"><img src={person1} alt="Free HTML5 Bootstrap Template by FreeHTML5.co" /> <cite> Mike Adam</cite></p>
                         </div>
@@ -79,7 +79,7 @@ export const Blog = () => {
                     <div className="col-md-4 col-sm-4 animate-box" data-animate-effect="fadeInUp">
                         <div className="fh5co-post">
                             <span className="fh5co-date">Sep. 23rd</span>
-                            <h3><Link to="#">Web Design for the Future</Link></h3>
+                            <h3><Link to="/">Web Design for the Future</Link></h3>
                             <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
                         <p className="author"><img src={person2} alt="Free HTML5 Bootstrap Template by FreeHTML5.co" /> <cite> Mike Adam</cite></p>
                         </div>
@@ -87,7 +87,7 @@ export const Blog = () => {
                     <div className="col-md-4 col-sm-4 animate-box" data-animate-effect="fadeInUp">
                         <div className="fh5co-post">
                             <span className="fh5co-date">Sep. 24th</span>
-                            <h3><Link to="#">Web Design for the Future</Link></h3>
+                            <h3><Link to="/">Web Design for the Future</Link></h3>
                             <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
                         <p className="author"><img src={person2} alt="Free HTML5 Bootstrap Template by FreeHTML5.co" /> <cite> Mike Adam</cite></p>
                         </div>
@@ -97,17 +97,17 @@ export const Blog = () => {
                         <nav aria-label="Page navigation">
                         <ul className="pagination">
                             <li>
-                            <Link to="#" aria-label="Previous">
+                            <Link to="/" aria-label="Previous">
                                 <span aria-hidden="true">&laquo;</span>
                             </Link>
                             </li>
-                            <li className="active"><Link to="#">1</Link></li>
-                            <li><Link to="#">2</Link></li>
-                            <li><Link to="#">3</Link></li>
-                            <li><Link to="#">4</Link></li>
-                            <li><Link to="#">5</Link></li>
+                            <li className="active"><Link to="/">1</Link></li>
+                            <li><Link to="/">2</Link></li>
+                            <li><Link to="/">3</Link></li>
+                            <li><Link to="/">4</Link></li>
+                            <li><Link to="/">5</Link></li>
                             <li>
-                            <Link to="#" aria-label="Next">
+                            <Link to="/" aria-label="Next">
                                 <span aria-hidden="true">&raquo;</span>
                             </Link>
                             </li>

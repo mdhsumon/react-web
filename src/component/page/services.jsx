@@ -22,7 +22,7 @@ export const Services = () => {
 						</span>
 						<h3>Retina Ready</h3>
 						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						<p><a href="#">Learn more</a></p>
+						<p><a href="/">Learn more</a></p>
 					</div>
 				</div>
 				<div className="col-md-4 col-sm-4 ">
@@ -32,7 +32,7 @@ export const Services = () => {
 						</span>
 						<h3>Fully Responsive</h3>
 						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						<p><a href="#">Learn more</a></p>
+						<p><a href="/">Learn more</a></p>
 					</div>
 				</div>
 				<div className="col-md-4 col-sm-4 ">
@@ -42,7 +42,7 @@ export const Services = () => {
 						</span>
 						<h3>Web Starter</h3>
 						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						<p><a href="#">Learn more</a></p>
+						<p><a href="/">Learn more</a></p>
 					</div>
 				</div>
 
@@ -53,7 +53,7 @@ export const Services = () => {
 						</span>
 						<h3>Retina Ready</h3>
 						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						<p><a href="#">Learn more</a></p>
+						<p><a href="/">Learn more</a></p>
 					</div>
 				</div>
 				<div className="col-md-4 col-sm-4 ">
@@ -63,7 +63,7 @@ export const Services = () => {
 						</span>
 						<h3>Fully Responsive</h3>
 						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						<p><a href="#">Learn more</a></p>
+						<p><a href="/">Learn more</a></p>
 					</div>
 				</div>
 				<div className="col-md-4 col-sm-4 ">
@@ -73,7 +73,7 @@ export const Services = () => {
 						</span>
 						<h3>Web Starter</h3>
 						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						<p><a href="#">Learn more</a></p>
+						<p><a href="/">Learn more</a></p>
 					</div>
 				</div>
 
