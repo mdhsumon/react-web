@@ -1,44 +1,44 @@
 import React from 'react';
 
-export const WhatWeDo = () => {
+export const Services = () => {
 
     return (
-        <div id="fh5co-services" class="fh5co-bg-section">
-		<div class="container">
-			<div class="row row-pb-md">
-				<div class="col-md-8 col-md-offset-2 text-center animate-box" data-animate-effect="fadeInUp">
-					<div class="fh5co-heading">
+        <div id="fh5co-services" className="fh5co-bg-section">
+		<div className="container">
+			<div className="row row-pb-md">
+				<div className="col-md-8 col-md-offset-2 text-center animate-box" data-animate-effect="fadeInUp">
+					<div className="fh5co-heading">
 						<span>We're expert</span>
 						<h2>What We Do</h2>
 						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-4 col-sm-4 ">
-					<div class="feature-center animate-box" data-animate-effect="fadeInUp">
-						<span class="icon">
-							<i class="icon-eye"></i>
+			<div className="row">
+				<div className="col-md-4 col-sm-4 ">
+					<div className="feature-center animate-box" data-animate-effect="fadeInUp">
+						<span className="icon">
+							<i className="icon-eye"></i>
 						</span>
 						<h3>Retina Ready</h3>
 						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 						<p><a href="#">Learn more</a></p>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-4 ">
-					<div class="feature-center animate-box" data-animate-effect="fadeInUp">
-						<span class="icon">
-							<i class="icon-command"></i>
+				<div className="col-md-4 col-sm-4 ">
+					<div className="feature-center animate-box" data-animate-effect="fadeInUp">
+						<span className="icon">
+							<i className="icon-command"></i>
 						</span>
 						<h3>Fully Responsive</h3>
 						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 						<p><a href="#">Learn more</a></p>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-4 ">
-					<div class="feature-center animate-box" data-animate-effect="fadeInUp">
-						<span class="icon">
-							<i class="icon-power"></i>
+				<div className="col-md-4 col-sm-4 ">
+					<div className="feature-center animate-box" data-animate-effect="fadeInUp">
+						<span className="icon">
+							<i className="icon-power"></i>
 						</span>
 						<h3>Web Starter</h3>
 						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -46,30 +46,30 @@ export const WhatWeDo = () => {
 					</div>
 				</div>
 
-				<div class="col-md-4 col-sm-4 ">
-					<div class="feature-center animate-box" data-animate-effect="fadeInUp">
-						<span class="icon">
-							<i class="icon-eye"></i>
+				<div className="col-md-4 col-sm-4 ">
+					<div className="feature-center animate-box" data-animate-effect="fadeInUp">
+						<span className="icon">
+							<i className="icon-eye"></i>
 						</span>
 						<h3>Retina Ready</h3>
 						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 						<p><a href="#">Learn more</a></p>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-4 ">
-					<div class="feature-center animate-box" data-animate-effect="fadeInUp">
-						<span class="icon">
-							<i class="icon-command"></i>
+				<div className="col-md-4 col-sm-4 ">
+					<div className="feature-center animate-box" data-animate-effect="fadeInUp">
+						<span className="icon">
+							<i className="icon-command"></i>
 						</span>
 						<h3>Fully Responsive</h3>
 						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 						<p><a href="#">Learn more</a></p>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-4 ">
-					<div class="feature-center animate-box" data-animate-effect="fadeInUp">
-						<span class="icon">
-							<i class="icon-power"></i>
+				<div className="col-md-4 col-sm-4 ">
+					<div className="feature-center animate-box" data-animate-effect="fadeInUp">
+						<span className="icon">
+							<i className="icon-power"></i>
 						</span>
 						<h3>Web Starter</h3>
 						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -80,5 +80,5 @@ export const WhatWeDo = () => {
 			</div>
 		</div>
 	</div>
-    );
+    )
 }

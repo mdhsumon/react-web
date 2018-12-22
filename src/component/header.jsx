@@ -1,46 +1,48 @@
 import React from 'react';
-import Bg from '../img/banner.jpg';
+import { Route, Link } from 'react-router-dom'; 
+import { HomeTitleLink } from './home-title-link'; 
+import headerBgImg from '../img/banner.jpg';
 
 export const Header = () => {
 
-    const headerBg = {
+    const headerInlineStyle = {
         backgroundColor: '#000',
-        backgroundImage: 'url('+ Bg +')'
+        backgroundImage: 'url('+ headerBgImg +')'
     };
 
     return (
+        
         <React.Fragment>
             <div class="fh5co-loader" style={ {display: 'none'} }></div>
             <nav class="fh5co-nav" role="navigation">
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12 text-center">
-                            <div id="fh5co-logo"><a href="index.html">Shape<span>.</span></a></div>
+                            <div id="fh5co-logo"><Link to="/">Shape<span>.</span></Link></div>
                         </div>
                         <div class="col-xs-12 text-center menu-1">
                             <ul>
-                                <li class="active"><a href="index.html">Home</a></li>
+                                <li class="active"><Link to="/">Home</Link></li>
+                                <li><Link to="/about">About</Link></li>
                                 <li class="has-dropdown">
-                                    <a href="services.html">Services</a>
+                                    <Link to="/services">Services</Link>
                                     <ul class="dropdown">
-                                        <li><a href="#">Web Design</a></li>
-                                        <li><a href="#">eCommerce</a></li>
-                                        <li><a href="#">Branding</a></li>
-                                        <li><a href="#">API</a></li>
+                                        <li><Link to="#">Web Design</Link></li>
+                                        <li><Link to="#">eCommerce</Link></li>
+                                        <li><Link to="#">Branding</Link></li>
+                                        <li><Link to="#">API</Link></li>
                                     </ul>
                                 </li>
-
-                                <li><a href="work.html">Work</a></li>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><Link to="/work">Work</Link></li>
+                                <li><Link to="/blog">Blog</Link></li>
+                                <li><Link to="/contact">Contact</Link></li>
                             </ul>
                         </div>
                     </div>
                     
                 </div>
             </nav>
-            <header id="fh5co-header" className="fh5co-cover" role="banner" style={ headerBg }>
+            <header id="fh5co-header" className="fh5co-cover" role="banner" style={ headerInlineStyle }>
                 <div className="overlay"></div>
                 <div className="container">
                     <div className="row">
@@ -48,10 +50,7 @@ export const Header = () => {
                             <div className="display-t">
                                 <div className="display-tc animate-box" data-animate-effect="fadeInUp">
                                     <h1 className="mb30">Never Stop Exploring.</h1>
-                                    <p>
-                                        <a href="https://vimeo.com/channels/staffpicks/93951774" target="_blank" className="btn btn-primary">Download</a> or 
-                                        <a href="https://vimeo.com/channels/staffpicks/93951774" className="link-watch popup-vimeo">Watch Video</a>
-                                    </p>
+                                    <Route exact path='/' component={ HomeTitleLink }></Route>
                                 </div>
                             </div>
                         </div>
