@@ -1,14 +1,15 @@
 export const menuItems = [
     { name: 'Home', url: '/' },
     { name: 'About', url: '/about' },
-    {
-        name: 'Services', url: '/services', child: [
-            { name: 'Web Design', url: '/web-design' },
-            { name: 'eCommerce', url: '/ecommerce' },
-            { name: 'Branding', url: '/branding' },
-            { name: 'API', url: '/api' }
-        ]
-    },
+    { name: 'Services', url: '/services' },
+    // {
+    //     name: 'Services', url: '/services', child: [
+    //         { name: 'Web Design', url: '/web-design' },
+    //         { name: 'eCommerce', url: '/ecommerce' },
+    //         { name: 'Branding', url: '/branding' },
+    //         { name: 'API', url: '/api' }
+    //     ]
+    // },
     { name: 'Work', url: '/work' },
     { name: 'Blog', url: '/blog' },
     { name: 'Contact', url: '/contact' }

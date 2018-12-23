@@ -1,14 +1,43 @@
 import React from 'react';
 import { Route, NavLink, Link } from 'react-router-dom';
 import { HomeTitleLink } from './home-title-link';
-import { menuItems } from '../service/serviceHeader';
+import { menuItems, pageTitles } from '../service/serviceHeader';
 import headerBgImg from '../img/banner.jpg';
+
+const getPageTitle = (pageUrl = window.location.pathname) => {
+    let pageTitle;
+    for (let i in pageTitles) {
+        if (pageTitles[i].url === pageUrl) {
+            pageTitle = pageTitles[i].name;
+            break;
+        }
+        else {
+            pageTitle = '';
+        }
+    }
+    return pageTitle;
+}
+
+const getActivePage = () => {
+    let returnUrl;
+    let pageUrl = window.location.pathname;
+    for (let i in menuItems) {
+        if (menuItems[i].url === pageUrl) {
+            returnUrl = menuItems[i].url;
+            break;
+        }
+        else {
+            returnUrl = false;
+        }
+    }
+    return returnUrl;
+}
 
 export const Header = (props) => {
 
-    const pageTitle = <h1 className="mb30">{props.pageTitleName}</h1>;
-    //const pageTitle = pageTitles.map((title, key) => <Route exact key={key} path={title.url}><h1 className="mb30">{title.name}</h1></Route>);
-    const navItems = menuItems.map((item, chabi) => <li key={chabi}><NavLink to={item.url}>{item.name}</NavLink></li>);
+    const pageTitle = <h1 className="mb30">{getPageTitle()}</h1>;
+
+    const navItems = menuItems.map((item, chabi) => <li className={(item.url === getActivePage()) ? 'active' : ''} key={chabi}><NavLink to={item.url}>{item.name}</NavLink></li>);
 
     const headerInlineStyle = {
         backgroundColor: '#000',
@@ -16,7 +45,6 @@ export const Header = (props) => {
     };
 
     return (
-
         <React.Fragment>
             <div className="fh5co-loader" style={{ display: 'none' }}></div>
             <nav className="fh5co-nav" role="navigation">
@@ -64,5 +92,5 @@ export const Header = (props) => {
                 </div>
             </header>
         </React.Fragment>
-    );
+    )
 }
